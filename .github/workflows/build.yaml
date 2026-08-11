@@ -13,7 +13,7 @@ jobs:
     permissions:
         packages: write
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       - name: Set env
         env:
           IS_TAG: ${{ startsWith(github.ref, 'refs/tags/') }}
