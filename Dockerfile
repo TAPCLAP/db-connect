@@ -4,6 +4,7 @@ LABEL org.opencontainers.image.source https://github.com/orangeappsru/db-connect
 RUN apt-get update \
     && apt-get install --no-install-recommends -y \
         vim \
+        less \
         bash-completion \
         iputils-ping \
         dnsutils \
